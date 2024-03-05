@@ -23,14 +23,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_gravity="center_horizontal"
-                android:text="Registration"
-                android:textColor="#000000"
+                android:text="REGISTRATION"
+                android:textColor="@color/blue"
                 android:textSize="32sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:ignore="MissingConstraints" />
+                />
 
             <ImageView
                 android:id="@+id/imgRegpage"
@@ -57,6 +57,7 @@
                     android:layout_marginStart="50dp"
                     android:layout_marginLeft="50dp"
                     android:text="Female"
+                    android:textColor="@color/blue"
                     app:layout_constraintStart_toStartOf="parent" />
 
                 <RadioButton
@@ -66,32 +67,21 @@
                     android:layout_marginStart="50dp"
                     android:layout_marginEnd="50dp"
                     android:text="Male"
+                    android:textColor="@color/blue"
                     app:layout_constraintStart_toStartOf="parent" />
 
             </RadioGroup>
 
-            <TextView
-                android:id="@+id/txtNameR"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="20dp"
-                android:text="Name"
-                android:textColor="#000000"
-                android:textSize="14sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/rdBtn" />
 
             <EditText
                 android:id="@+id/editNameR"
                 android:layout_width="160dp"
                 android:layout_height="40dp"
                 android:ems="10"
+                android:layout_marginTop="20dp"
                 android:inputType="text"
-                app:layout_constraintStart_toStartOf="@+id/txtNameR"
-                app:layout_constraintTop_toBottomOf="@+id/txtNameR" />
+                app:layout_constraintStart_toStartOf="@+id/rdBtn"
+                app:layout_constraintTop_toBottomOf="@+id/rdBtn" />
 
             <TextView
                 android:id="@+id/txtSurname"
@@ -101,7 +91,7 @@
                 android:layout_marginEnd="115dp"
                 android:layout_marginRight="115dp"
                 android:text="Surname"
-                android:textColor="#000000"
+                android:textColor="@color/blue"
                 android:textSize="14sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
