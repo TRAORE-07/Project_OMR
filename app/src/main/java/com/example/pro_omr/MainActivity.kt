@@ -10,14 +10,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val imageButton = findViewById<ImageButton>(R.id.ImgLogin)
-        imageButton.setOnClickListener {
+        val loginBtn = findViewById<ImageButton>(R.id.ImgLogin)
+        loginBtn.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
 
-        val imageButton2 = findViewById<ImageButton>(R.id.ImgRegister)
-        imageButton2.setOnClickListener {
+        val registerBtn = findViewById<ImageButton>(R.id.ImgRegister)
+        registerBtn.setOnClickListener {
             startActivity(Intent(this, RegistrationActivity::class.java))
         }
     }

@@ -3,4 +3,15 @@
     <string name="Description">Welcome to your Online Medical Records. \nThis app will provide you all the information about your medical situation, your health care, your health history, everything like a real Physical Medical Record.</string>
     <string name="Devise">Your online medical report with just one click!</string>
     <string name="great">Welcome To Your OMR !</string>
+
+    <string-array name="blood_group">
+        <item>O-</item>
+        <item>O+</item>
+        <item>B-</item>
+        <item>B+</item>
+        <item>A-</item>
+        <item>A+</item>
+        <item>AB-</item>
+        <item>AB+</item>
+    </string-array>
 </resources>
